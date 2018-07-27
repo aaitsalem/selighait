@@ -324,7 +324,7 @@ ul{
 
 /*all overlay*/
 .overlay{
-    background-color: rgba(15,15,15,0.5);
+    /*background-color: rgba(15,15,15,0.5);*/
     position: absolute;
     left:0;
     top:0;
@@ -1502,7 +1502,7 @@ Testimonial Section style
 Testimonial Section style
 =======================*/
 .testimonial{
-    background: url(../images/background/testimonial.jpg) no-repeat center center;
+    background: linear-gradient(to top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%),  url(../images/background/testimonial.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
     height: 600px;
@@ -1547,7 +1547,7 @@ Testimonial Section style
 
 
 .testimonial1{
-    background: url(../images/background/testimonial1.jpg) no-repeat center center;
+    background: linear-gradient(to top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%), url(../images/background/testimonial1.jpg) no-repeat center center;
         position: relative;
     height: 600px;
 }
@@ -1593,7 +1593,7 @@ Testimonial Section style
 
 
 .testimonial2{
-    background: url(../images/background/testimonial2.jpg) no-repeat center center;
+    background: linear-gradient(to top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%), url(../images/background/testimonial2.jpg) no-repeat center center;
     position: relative;
     height: 600px;
 }
@@ -1793,6 +1793,7 @@ Maps Section style
     position: relative;
     width:100%;
     overflow: hidden;
+    background-color: rgba(15,15,15,0.5);
 }
 
 .maps_text{
