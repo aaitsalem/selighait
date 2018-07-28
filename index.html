@@ -25,6 +25,9 @@
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <link rel="stylesheet" href="assets/css/bootsnav.css">
 
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
 
         <!--For Plugins external css-->
         <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
@@ -51,6 +54,98 @@
     border-radius: .25em;
     border: solid 4px;
 }
+            .btn {
+                text-transform: uppercase;
+            }
+            .btn.btn-lg {
+                padding: 6px 30px;
+            }
+            .thumbnail-title {
+                font-size: 20px;
+                margin-top: 5px;
+            }
+            .img-thumb-bg {
+                padding: 0;
+                overflow: hidden;
+                min-height: 200px;
+                position: relative;
+                border-radius: 3px;
+                background-position: center;
+                background-color: rgb(255, 59, 1);
+                background-image: url('http://projects.mostlikers.com/_images/estate-image.jpg');
+            }
+            .img-thumb-bg p {
+                color: #fff;
+                margin-bottom: 0;
+                line-height: 16px;
+            }
+            .img-thumb-bg .overlay {
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                position: absolute;
+                transition: all 0.3s ease-in-out;
+                background: rgba(64, 164, 151, 0.4);
+               filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+            }
+            .img-thumb-bg .caption {
+                bottom: -5px;
+                height: 100px;
+                font-size: 12px;
+                position: absolute;
+                padding: 0 20px 20px;
+                transition: all 0.3s ease-in-out;
+            }
+            .img-thumb-bg .caption .tag a {
+                color: #fff;
+                padding: 0 5px;
+                font-size: 12px;
+                border-radius: 2px;
+                display: inline-block;
+                text-transform: uppercase;
+                background-color: #2980B9;
+            }
+            .img-thumb-bg .caption .title {
+                margin-top: 5px;
+                font-size: 18px;
+                line-height: 20px;
+                text-transform: uppercase;
+            }
+            .img-thumb-bg .caption .title a {
+                color: #fff;
+            }
+            .img-thumb-bg .caption .title a:hover {
+                color: #2980B9;
+            }
+            .img-thumb-bg .caption .meta-data {
+                color: #777;
+                font-size: 12px;
+                line-height: 12px;
+                margin-bottom: 15px;
+            }
+            .img-thumb-bg .caption .meta-data a {
+                color: #777;
+            }
+            .img-thumb-bg .caption .meta-data a .fa {
+                color: #2980B9;
+            }
+            .img-thumb-bg .caption .meta-data a:hover {
+                color: #2980B9;
+            }
+            .img-thumb-bg .caption .content {
+                display: none;
+            }
+            .img-thumb-bg:hover .overlay {
+                background: rgba(46, 49, 58, 0.8);
+            }
+            .img-thumb-bg:hover .caption {
+                bottom: 60px;
+            }
+            .img-thumb-bg:hover .caption .content {
+                display: block;
+            }
+
         </style>
     </head>
 
@@ -97,7 +192,7 @@
                         </button>
                         <a class="navbar-brand" href="#brand">
 
-                            <h1><strong>SELIGHA IT</strong></h1>
+                            <h1><strong style="font-family: 'Acme', serif;">Seligha IT</strong></h1>
 
                         </a>
                     </div>
@@ -107,8 +202,8 @@
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                             <li><a href="#skill">Positionnement</a></li>
-                            <li><a href="#activite">Notre Activité</a></li>
-                            <li><a href="#addictions">Nos addictions</a></li>
+                            <li><a href="#activite">Activité</a></li>
+                            <li><a href="#addictions">Addiction</a></li>
                             <!--<li><a href="#testimonial">Approche</a></li>-->
                             <li><a href="#contact">Contact</a></li>
                         </ul>
@@ -130,7 +225,7 @@
                     <div class="row">
                         <center> <div class="main_home">
                            <div class="home_text1">
-                                <h1 class="text-white-2">SELIGHA IT </h1><br />
+                                <h1 class="text-white-2" >SELIGHA IT </h1><br />
                             </div>
                             <div class="home_text">
                                 <h1 class="text-white-1">#Web #Dev #Data #IA </h1>
@@ -174,35 +269,7 @@
 
 
             <!--Testimonial Section-->
-            <section id="testimonial" class="testimonial fix">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="main_testimonial roomy-100">
-                            <div class="head_title text-center">
-                                <h2 class="text-white-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
-                            </div>
-                            <div class="testimonial_slid text-center">
-                                <div class="testimonial_item">
-                                    <div class="col-sm-10 col-sm-offset-1">
-                                        <p class="text-white-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-                                        <div class="test_authour m-top-30">
-                                            <h6 class="text-white-1 m-bottom-20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h6>
-                                            <i class=""></i>
-                                            <i class=""></i>
-                                            <i class=""></i>
-                                            <i class=""></i>
-                                            <i class=""></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div><!--End off row-->
-                </div><!--End off container -->
-            </section> <!--End off Testimonial section -->
 
 
 
@@ -235,35 +302,7 @@
 
 
         <!--Testimonial Section-->
-        <section id="testimonial" class="testimonial2 fix">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="main_testimonial2 roomy-100">
-                        <div class="head_title text-center">
-                            <h2 class="text-white-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
-                        </div>
-                        <div class="testimonial2_slid text-center">
-                            <div class="testimonial2_item">
-                                <div class="col-sm-10 col-sm-offset-1">
-                                    <p class="text-white-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-                                    <div class="test_authour m-top-30">
-                                        <h6 class="text-white-1 m-bottom-20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h6>
-                                        <i class=""></i>
-                                        <i class=""></i>
-                                        <i class=""></i>
-                                        <i class=""></i>
-                                        <i class=""></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div><!--End off row-->
-            </div><!--End off container -->
-        </section> <!--End off Testimonial section -->
 
         <!--Skill Sections-->
         <section id="skill" class="skill roomy-100">
@@ -292,16 +331,16 @@
 
 
             <!--Testimonial Section-->
-            <section id="testimonial" class="testimonial1 fix">
+            <section id="testimonial" class="testimonial2 fix">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row">
-                        <div class="main_testimonial1 roomy-100">
+                        <div class="main_testimonial2 roomy-100">
                             <div class="head_title text-center">
                                 <h2 class="text-white-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
                             </div>
-                            <div class="testimonial1_slid text-center">
-                                <div class="testimonial1_item">
+                            <div class="testimonial2_slid text-center">
+                                <div class="testimonial2_item">
                                     <div class="col-sm-10 col-sm-offset-1">
                                         <p class="text-white-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
@@ -320,63 +359,80 @@
                         </div>
                     </div><!--End off row-->
                 </div><!--End off container -->
-            </section> <!--End off Testimonial section --><br><br>
-<hr>
+            </section> <!--End off Testimonial section -->
             <section id="activite" class="about roomy-100">
                 <div class="container">
-                    <div class="row">
-                        <div class="main_about">
-                            <div class="col-md-6">
-                                <div class="about_content">
-                                    <h2><strong>Notre acitivité</strong></h2>
-                                    <div class="separator_left"></div>
-                                    <p class="text-black-1">Notre expertise au service de votre transformation digitale</p>
-                                    <p class="text-black-1"> Notre équipe vous accompagne à chaque étape de l’évolution de votre SI (étude, conception, réalisation) sur des sujets transverses et vous apporte des solutions sur mesure. </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="thumbnail img-thumb-bg">
+                                    <div class="overlay"></div>
+                                    <div class="caption">
+                                        <div class="title"><a href="#">Gorgeous Ensea House in California</a></div>
 
+                                        <div class="content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="about_accordion wow fadeIn">
-                                    <div id="faq_main_content" class="faq_main_content">
-                                        <h6><i class="fa fa-angle-right"></i> UX/UI </h6>
-                                        <div>
-                                            <div class="content">
-                                                <p>L’UX/UI consiste à proposer une jolie enveloppe et donc de créer un design fonctionnel, qui inspire confiance et qui permette à l’utilisateur d’arriver à son but (qui est un peu aussi le vôtre) : trouver ce qu’il est venu chercher et concrétiser son action. </p>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="thumbnail img-thumb-bg">
+                                    <div class="overlay"></div>
+                                    <div class="caption">
+                                        <div class="title"><a href="#">Gorgeous Ensea House in California</a></div>
 
-                                            </div>
+                                        <div class="content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
                                         </div>
-                                        <!-- End off accordion item-1 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="thumbnail img-thumb-bg">
+                                    <div class="overlay"></div>
+                                    <div class="caption">
+                                        <div class="title"><a href="#">Gorgeous Ensea House in California</a></div>
 
-                                        <h6 class="open"><i class="fa fa-angle-right"></i> Craftsmanship</h6>
-                                        <div class="open">
-                                            <div class="content">
-                                                <p> «Craftsman» signfie que le développeur ne se restreint pas au seul fait que logiciel fonctionne, il doit être aussi bien écrit. Pour cela vous mettez en oeuvre des techniques de programmation pour que le résultat soit le plus propre et le plus simple possible. Les Anglais parlent de résultat «artistique» au sens pièce unique</p>
-                                            </div>
+                                        <div class="content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
                                         </div>
-                                        <!-- End off accordion item-2 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="thumbnail img-thumb-bg">
+                                    <div class="overlay"></div>
+                                    <div class="caption">
+                                        <div class="title"><a href="#">Gorgeous Ensea House in California</a></div>
 
-                                        <h6> <i class="fa fa-angle-right"></i> Data 360°
-                                        </h6>
-                                        <div>
-                                            <div class="content">
-                                                <p>le Big Data constitue une bouée de sauvetage qui va permettre de rapprocher entre elles des informations diffuses sans devoir remettre en cause les lourds investissements déjà consentis dans la mise en place des ERP et des plateformes CRM. La technologie Big Data permet non seulement de croiser des données jusqu’ici disséminées aux quatre coins du Système d’Information, les compléter de données issues de sources externes, mais aussi d’intégrer à ces analyses des informations totalement non structurées.</p>
-                                            </div>
+                                        <div class="content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
                                         </div>
-                                        <!-- End off accordion item-3 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="thumbnail img-thumb-bg">
+                                    <div class="overlay"></div>
+                                    <div class="caption">
+                                        <div class="title"><a href="#">Gorgeous Ensea House in California</a></div>
 
-                                        <h6><i class="fa fa-angle-right"></i> Agile </h6>
-                                        <div>
-                                            <div class="content">
-                                                <p>Les 4 valeurs que nous pronons chez Seligha IT
-                                                <ul >
-                                                   <li> <b>- L'équipe</b>, soit des individus et des interactions plutôt que des processus et des outils </li>
-                                                    <li><b>- L’application</b>, c'est-à-dire des fonctionnalités opérationnelles plutôt que de la documentation exhaustive</li>
-                                                    <li><b>- La collaboration</b> avec le client plutôt que la contractualisation des relations </li>
-                                                    <li><b>- L’acceptation du changement</b> plutôt que le suivi d'un plan</li>
-                                            </ul>
-                                                </p>                                            </div>
+                                        <div class="content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
                                         </div>
-                                        <!-- End off accordion item-4 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <div class="thumbnail img-thumb-bg">
+                                    <div class="overlay"></div>
+                                    <div class="caption">
+                                        <div class="title"><a href="#">Gorgeous Ensea House in California</a></div>
+
+                                        <div class="content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

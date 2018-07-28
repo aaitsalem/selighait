@@ -127,7 +127,7 @@ section { overflow: hidden; }*/
 .bg-finence{background-color:#13A0B2;}
 .bg-mega{background-color:#000;}
 .bg-grey{background-color: #f5f5f5;}
-.bg-black{background-color: #212121;}
+.bg-black{background-color: #000;border-top: solid 1px lightgray}
 .bg-white{background-color: #fff;}
 
 img {
