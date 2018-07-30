@@ -19,7 +19,7 @@
     $contenu .= '<p><strong>Nom</strong>: '.$nom.'</p>';
     $contenu .= '<p><strong>Prenom</strong>: '.$prenom.'</p>';
     $contenu .= '<p><strong>Email</strong>: '.$email.'</p>';
-	$contenu .= '<p><strong>Telephone</strong>: '.$telephone.'</p>';
+	$contenu .= '<p><strong>Telephone</strong>: '.$tel.'</p>';
 
     $contenu .= '<p><strong>Message</strong>: '.$message.'</p>';
     $contenu .= '</body></html>'; // Contenu du message de l'email (en XHTML)
@@ -30,9 +30,7 @@
      
     // Envoyer l'email
     mail($destinataire, $sujet, $contenu, $headers); // Fonction principale qui envoi l'email
-    echo '<h2> Message envoy&eacute;!</h2>'; // Afficher un message pour indiquer que le message a été envoyé
-    echo '<h2> Nous vous remercions pour votre demande.</h2>';
-	echo '<h2> Nous vous r&eacute;pondrons dans les plus brefs d&eacute;lais.</h2>';
-	// (2) Fin du code pour traiter l'envoi de l'email
+    echo '<center><h2 style="color"> Message envoy&eacute;! <a href="http://www.selighait.com">Revenir sur le site</a></h2></center>'; // Afficher un message pour indiquer que le message a été envoyé
+    	// (2) Fin du code pour traiter l'envoi de l'email
     }
     ?>
