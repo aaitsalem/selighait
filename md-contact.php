@@ -12,8 +12,8 @@
      
     // Variables concernant l'email
      
-    $destinataire = 'selighait@gmail.com'; // Adresse email du webmaster (à personnaliser)
-    $sujet = 'Demande de contact via Kabiliia-Location.com'; // Titre de l'email
+    $destinataire = 'contact@selighait.com'; // Adresse email du webmaster (à personnaliser)
+    $sujet = 'Demande de contact seligha it '; // Titre de l'email
     $contenu = '<html><head><title>Demande d\'informations ou de candidature</title></head><body>';
     $contenu .= '<p>Bonjour, vous avez reçu un message à partir de SELIGHA IT.</p>';
     $contenu .= '<p><strong>Nom</strong>: '.$nom.'</p>';
