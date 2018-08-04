@@ -66,11 +66,13 @@ nav.navbar.bootsnav ul.nav li.active > a{
 
 nav.navbar.bootsnav .navbar-toggle{
     background-color: #fff !important;
-    border: none;
+    border: solid 1px white;
     padding: 0;
     font-size: 23px;
     position: relative;
     top: 5px;
+    color: black;
+}
 }
 
 nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu{
