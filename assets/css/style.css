@@ -136,7 +136,8 @@ section { overflow: hidden; }*/
 .text-white-1{color:#fff !important ;}
 .text-white-2{color:#fff !important;font-size: 40px }
 .text-black{color:#fff !important;}
-.text-black-1{color:#fff !important;font-size:17px;   }
+.text-black-1{color:#000 !important;font-size:17px;   }
+.text-black-3{color:#000 !important;font-size:38px;   }
 .text-black-2{color:#fff !important;font-size:14px;    }
 
 .text-warning{}
@@ -152,7 +153,7 @@ section { overflow: hidden; }*/
 }
 .bg-primary{background-color: #1E8BC3;}
 .bg-finence{background-color:#13A0B2;}
-.bg-mega{background-color:#000;}
+.bg-mega{background-color:#fff;}
 .bg-grey{background-color: #f5f5f5;}
 .bg-black{background-color: #000;}
 .bg-white{background-color: #fff;}
