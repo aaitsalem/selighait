@@ -54,9 +54,9 @@ Author URI: http://xpeedstudio.com
 
 html,
 body {
-    background-color: #000;
+    background-color: #fff;
     font-size: 14px;
-    color: #fff;
+    color: #000;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -135,10 +135,10 @@ section { overflow: hidden; }*/
 .text-white{color:#fff !important;text-decoration: underline;font-family: 'Cabin Sketch', cursive;}
 .text-white-1{color:#fff !important ;}
 .text-white-2{color:#fff !important;font-size: 40px }
-.text-black{color:#fff !important;}
+.text-black{color:#000 !important;}
 .text-black-1{color:#000 !important;font-size:17px;   }
 .text-black-3{color:#000 !important;font-size:38px;   }
-.text-black-2{color:#fff !important;font-size:14px;    }
+.text-black-2{color:#000 !important;font-size:14px;    }
 
 .text-warning{}
 .text-danger{}
@@ -1530,7 +1530,7 @@ Testimonial Section style
 Testimonial Section style
 =======================*/
 .testimonial{
-    background: linear-gradient(to top, rgba(0,0,0,0) 20%, rgba(0,0,0,1) 100%),  url(../images/background/testimonial.jpg) no-repeat center center;
+    background: linear-gradient(to top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%),  url(../images/background/testimonial.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
     height: 600px;
@@ -1575,7 +1575,7 @@ Testimonial Section style
 
 
 .testimonial1{
-    background: linear-gradient(to top, rgba(0,0,0,0) 20%, rgba(0,0,0,1) 100%), url(../images/background/testimonial1.jpg) no-repeat center center;
+    background: linear-gradient(to top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%), url(../images/background/testimonial1.jpg) no-repeat center center;
         position: relative;
     height: 600px;
 }
@@ -1621,7 +1621,7 @@ Testimonial Section style
 
 
 .testimonial2{
-    background: linear-gradient(to top, rgba(0,0,0,0) 20%, rgba(0,0,0,1) 100%), url(../images/background/testimonial2.jpg) no-repeat center center;
+    background: linear-gradient(to top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%), url(../images/background/testimonial2.jpg) no-repeat center center;
     position: relative;
     height: 600px;
 }
