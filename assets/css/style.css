@@ -1049,6 +1049,15 @@ Home Section style
     background: url(../images/background/header.jpg) no-repeat bottom center;
     background-size: cover;
     position: relative;
+    height: 900px;
+}
+@media screen and (max-width: 640px) {
+    .home{
+        background: url(../images/background/header.jpg) no-repeat bottom center;
+        background-size: cover;
+        position: relative;
+        height: 700px;
+    }
 }
 .main_home{
     overflow: hidden;
