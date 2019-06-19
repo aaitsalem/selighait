@@ -48,10 +48,10 @@
         .label {
             display: inline;
             padding: .2em .6em .3em;
-            font-size: 75%;
+            font-size: 70%;
             font-weight: bold;
             line-height: 1;
-            color: #000;
+            color: #fff;
             text-align: center;
             white-space: nowrap;
             vertical-align: baseline;
@@ -63,7 +63,6 @@
             overflow: hidden;
             min-height: 200px;
             position: relative;
-            border-radius: 25px;
             background-position: center;
             background-color: rgb(255, 59, 1);
         }
@@ -79,7 +78,6 @@
             bottom: 0;
             position: absolute;
             transition: all 0.3s ease-in-out;
-            background:   rgb(0, 0,0);;
         }
         .img-thumb-bg .caption {
             bottom: -5px;
@@ -88,17 +86,17 @@
             position: absolute;
             padding: 0 20px 20px;
             transition: all 0.3s ease-in-out;
-            font-family: 'Cabin Sketch';
+            font-family: 'Rajdhani', serif;
             text-align: center;
         }
         .img-thumb-bg .caption .tag a {
             color: #fff;
             padding: 0 5px;
             font-size: 12px;
-            border-radius: 2px;
+            border-radius: 2px
             display: inline-block;
             text-transform: uppercase;
-            background-color: #ff6863;
+            background-color: #2f57f4;
         }
         .img-thumb-bg .caption .title {
             margin-top: 5px;
@@ -109,9 +107,7 @@
         .img-thumb-bg .caption .title a {
             color: #fff;
         }
-        .img-thumb-bg .caption .title a:hover {
-            color: #ff6863;
-        }
+
         .img-thumb-bg .caption .meta-data {
             color: #fff;
             font-size: 12px;
@@ -122,24 +118,33 @@
             color: #777;
         }
         .img-thumb-bg .caption .meta-data a .fa {
-            color: #ff6863;
+            color: #2f57f4;
         }
         .img-thumb-bg .caption .meta-data a:hover {
-            color: #ff6863;
+            color: #2f57f4;
         }
         .img-thumb-bg .caption .content {
             display: none;
         }
-        .img-thumb-bg:hover .overlay {
-            background: rgba(0, 0, 0, 0.5);
-        }
+
         .img-thumb-bg:hover .caption {
             bottom: 60px;
         }
         .img-thumb-bg:hover .caption .content {
             display: block;
         }
-
+        .icofont {
+            font-family: 'IcoFont' !important;
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: #2f57f4;
+        }
     </style>
 </head>
 
@@ -163,22 +168,22 @@
     <!--Home page style-->
 
 
-    <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
-        <!-- Start Top Search -->
-        <div class="top-search">
-            <div class="container">
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                    <input type="text" class="form-control" placeholder="Search">
-                    <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-                </div>
-            </div>
-        </div>
+
         <!-- End Top Search -->
 
         <div class="container">
 
-
+            <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
+                <!-- Start Top Search -->
+                <div class="top-search">
+                    <div class="container">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
             <!-- Start Header Navigation -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
@@ -186,7 +191,7 @@
                 </button>
                 <a class="navbar-brand" href="index.html#">
 
-<img src="assets/images/logo1.png"/>
+<img src="assets/images/logo3.png"/>
                 </a>
             </div>
             <!-- End Header Navigation -->
@@ -194,11 +199,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                    <li style="font-family: 'Rajdhani';font-size: 16px;"><a href="#skill">Positionnement</a></li>
-                    <li style="font-family: 'Rajdhani';font-size: 16px;"><a href="#difference">Recontrons-nous</a></li>
-                    <li style="font-family: 'Rajdhani';font-size: 16px;"><a href="#communaute">Notre communauté</a></li>
+                    <li style="font-family: 'Rajdhani';font-size: 14px;"><a href="#skill">Positionnement</a></li>
+                    <li style="font-family: 'Rajdhani';font-size: 14px;"><a href="#difference">Recontrons-nous</a></li>
+                    <li style="font-family: 'Rajdhani';font-size: 14px;"><a href="#communaute">Notre communauté</a></li>
                     <!--<li><a href="#testimonial">Approche</a></li>-->
-                    <li style="font-family: 'Rajdhani';font-size: 16px;"><a href="#contact">Contact</a></li>
+                    <li style="font-family: 'Rajdhani';font-size: 14px;"><a href="#contact">Contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div>
@@ -239,9 +244,9 @@
                 <div class="col-md-4">
                     <center>
                         <div class="service_item">
-                            <h6 class="m-top-30" style="font-family: 'Cabin Sketch';font-size: 2rem">Expertise</h6>
+                            <h6 class="m-top-30" style="font-family: 'Rajdhani', serif;font-size: 2rem">Expertise</h6>
                             <div class="separator_small"></div>
-                            <p >A la différence des cabinets de conseil IT généralistes, Seligha IT se positionne sur de l’expertise technique pure.
+                            <p style="font-family: 'Rajdhani', serif;">A la différence des cabinets de conseil IT généralistes, Seligha IT se positionne sur de l’expertise technique pure.
                                 En faisant appel à nous, nos experts interviennent sur vos projets pour vous apporter conseil et accompagnement.</p>
                         </div>
                     </center>
@@ -250,9 +255,9 @@
                 <div class="col-md-4">
                     <center>
                         <div class="service_item">
-                            <h6 class="m-top-30" style="font-family: 'Cabin Sketch';font-size: 2rem">Delivery</h6>
+                            <h6 class="m-top-30" style="font-family: 'Rajdhani', serif;font-size: 2rem">Delivery</h6>
                             <div class="separator_small"></div>
-                            <p >Des équipes spécialement dédiées à la réalisation de vos applications stratégiques de bout en bout et en un temps record !
+                            <p style="font-family: 'Rajdhani', serif;">Des équipes spécialement dédiées à la réalisation de vos applications stratégiques de bout en bout et en un temps record !
                                 Dans vos locaux, ou dans les nôtres, nous mettons en oeuvre des pratiques novatrices et des technologies performantes pour construire rapidement et sans risque des logiciels conformes aux exigences du digital.
                                 Nous vous garantissons une livraison conforme à vos demandes. </p>
                         </div>
@@ -261,15 +266,14 @@
                 <div class="col-md-4">
                     <center>
                         <div class="service_item">
-                            <h6 class="m-top-30" style="font-family: 'Cabin Sketch';font-size: 2rem">Innovation</h6>
+                            <h6 class="m-top-30" style="font-family: 'Rajdhani', serif;font-size: 2rem">Innovation</h6>
                             <div class="separator_small"></div>
-                            <p>Seligha IT Factory est le laboratoire technologique où nos ingénieurs étudient et expérimentent des outils techniques, puis conçoivent et inventent des solutions digitales pour nous et pour nos clients.</p>
+                            <p style="font-family: 'Rajdhani', serif;">Seligha IT Factory est le laboratoire technologique où nos ingénieurs étudient et expérimentent des outils techniques, puis conçoivent et inventent des solutions digitales pour nous et pour nos clients.</p>
                         </div>
                     </center>
                 </div>
             </div>
         </div></section><br>
-    <center><div class="separator_left"></div></center>
     <!--End off row -->
 <br><br><br>
 
@@ -281,7 +285,7 @@
                     <div class="main_skill" >
                         <div class="col-md-12">
                             <div class="skill_content wow fadeIn" style="background: white;padding: 10px 10px 25px 13px;border-radius: 11px 10px 10px 10px;">
-                                <h1 style="font-family: 'Cabin Sketch'; color: #000;font-size: 3rem">CODE</h1>
+                                <h1 style="font-family: 'Rajdhani', serif; color: #000;font-size: 3rem">CODE</h1>
                                 <div class="separator_left"></div>
 
                                 <p class="text-black-1">Seligha IT c'est avant tout une communauté de passionnés du code, ayant pour valeurs l'apprentissage continu et le partage de connaissances. Ce qui nous anime ? Savoir résoudre les problèmes, maîtriser nos outils et être en pointe sur la technologie. Notre approche du code est fondée sur la qualité et le pragmatisme. </p>
@@ -313,7 +317,7 @@
                     <div class="main_skill">
                         <div class="col-md-12">
                             <div class="skill_content wow fadeIn" style="background: white;padding: 10px 10px 25px 13px;border-radius: 11px 10px 10px 10px;">
-                                <h1 style="font-family: 'Cabin Sketch'; color: #000;font-size: 3rem">ENTREPRENARIAT</h1>
+                                <h1 style="font-family: 'Rajdhani', serif; color: #000;font-size: 3rem">ENTREPRENARIAT</h1>
 
 
                                 <div class="separator_left"></div>
@@ -344,7 +348,7 @@
                     <div class="main_skill">
                         <div class="col-md-12">
                             <div class="skill_content wow fadeIn" style="background: white;padding: 10px 10px 25px 13px;border-radius: 11px 10px 10px 10px;">
-                                <h1 style="font-family: 'Cabin Sketch'; color: #000;font-size: 3rem"> PRODUIT</h1>
+                                <h1 style="font-family: 'Rajdhani', serif; color: #000;font-size: 3rem"> PRODUIT</h1>
 
                                 <div class="separator_left"></div>
 
@@ -401,7 +405,7 @@
                         <div class="main_skill">
                             <div class="col-md-12">
                                 <div class="skill_content wow fadeIn">
-                                    <h1 style="font-family: 'Cabin Sketch'; color: #000;font-size: 3rem">Devenir un Selighay</h1>
+                                    <h1 style="font-family: 'Rajdhani', serif; color: #000;font-size: 3rem">Devenir un Selighay</h1>
 
                                     <div class="separator_left"></div>
 
@@ -418,9 +422,9 @@
                     <center>
                         <div class="service_item">
                             <i class="icofont icofont-light-bulb"></i>
-                            <h6 class="m-top-30" style="font-family: 'Cabin Sketch';font-weight:bold">Ecoute</h6>
+                            <h6 class="m-top-30" style="font-family: 'Rajdhani', serif;font-weight:bold">Ecoute</h6>
                             <div class="separator_small"></div>
-                            <p >La prise en compte des idées de chacun et l’attention portée à tous sont les clés pour répondre au mieux à vos attentes</p>
+                            <p style="font-family: 'Rajdhani', serif;">La prise en compte des idées de chacun et l’attention portée à tous sont les clés pour répondre au mieux à vos attentes</p>
                         </div>
                     </center>
                 </div>
@@ -429,9 +433,9 @@
                     <center>
                         <div class="service_item">
                             <i class="icofont icofont-game"></i>
-                            <h6 class="m-top-30" style="font-family: 'Cabin Sketch';font-weight:bold">Communauté</h6>
+                            <h6 class="m-top-30" style="font-family: 'Rajdhani', serif;font-weight:bold">Communauté</h6>
                             <div class="separator_small"></div>
-                            <p >Nous organisons régulièrement des événements pour favoriser l’émulation et partager nos connaissances. </p>
+                            <p style="font-family: 'Rajdhani', serif;">Nous organisons régulièrement des événements pour favoriser l’émulation et partager nos connaissances. </p>
                         </div>
                     </center>
                 </div>
@@ -439,9 +443,9 @@
                     <center>
                         <div class="service_item">
                             <i class="icofont icofont-papers"></i>
-                            <h6 class="m-top-30" style="font-family: 'Cabin Sketch';font-weight:bold">Accompagnement</h6>
+                            <h6 class="m-top-30" style="font-family: 'Rajdhani', serif;font-weight:bold">Accompagnement</h6>
                             <div class="separator_small"></div>
-                            <p >Notre expérience nous permet de vous garantir une grande réactivité et une véritable transparence lors de notre collaboration.</p>
+                            <p style="font-family: 'Rajdhani', serif;">Notre expérience nous permet de vous garantir une grande réactivité et une véritable transparence lors de notre collaboration.</p>
                         </div>
                     </center>
                 </div>
@@ -458,7 +462,7 @@
                 <div class="main_skill">
                     <div class="col-md-12">
                         <div class="skill_content wow fadeIn">
-                            <h1 style="font-family: 'Cabin Sketch'; color: #000;font-size: 3rem">
+                            <h1 style="font-family: 'Rajdhani', serif; color: #000;font-size: 3rem">
                                 Rencontrons-nous vite
                             </h1>
 
@@ -473,7 +477,7 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-3 col-sm-3">
-                    <div class="thumbnail img-thumb-bg" style="background-image: url('assets/images/background/source.jpg');">
+                    <div class="thumbnail img-thumb-bg" style="background-image: url('assets/images/background/image2.jpg');">
                         <div class="overlay"></div>
                         <div class="caption" style="font-family: 'Rajdhani';">
                             <div class="title"><a href="#contact">Software craftsman Java JEE</a></div>
@@ -485,7 +489,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3">
-                    <div class="thumbnail img-thumb-bg" style="background-image: url('assets/images/background/source.jpg');">
+                    <div class="thumbnail img-thumb-bg" style="background-image: url('assets/images/background/image2.jpg');">
                         <div class="overlay"></div>
                         <div class="caption" style="font-family: 'Rajdhani';">
                             <div class="title"><a href="#contact">Développeur fullstack passionné</a></div>
@@ -499,7 +503,7 @@
 
 
                 <div class="col-lg-3 col-md-3 col-sm-3">
-                    <div class="thumbnail img-thumb-bg" style="background-image: url('assets/images/background/source.jpg');">
+                    <div class="thumbnail img-thumb-bg" style="background-image: url('assets/images/background/image2.jpg');">
                         <div class="overlay"></div>
                         <center>
                             <div class="caption" style="font-family: 'Rajdhani';">
@@ -512,7 +516,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3">
-                    <div class="thumbnail img-thumb-bg" style="background-image: url('assets/images/background/source.jpg');">
+                    <div class="thumbnail img-thumb-bg" style="background-image: url('assets/images/background/image2.jpg');">
                         <div class="overlay"></div>
                         <center>
                             <div class="caption" style="font-family: 'Rajdhani';">
@@ -570,7 +574,7 @@
             <div class="main_skill">
                 <div class="col-md-12">
                     <div class="skill_content wow fadeIn">
-                        <h1 style="font-family: 'Cabin Sketch'; color: black;font-size: 3rem">La communauté Seligha IT</h1>
+                        <h1 style="font-family: 'Rajdhani', serif; color: black;font-size: 3rem">La communauté Seligha IT</h1>
 
                         <div class="separator_left"></div>
 
@@ -586,7 +590,7 @@
             <div class="main_skill">
                 <div class="col-md-12">
                     <div class="skill_content wow fadeIn">
-                        <h1 style="font-family: 'Cabin Sketch'; color: #000;font-size: 2rem">Nos technos</h1>
+                        <h1 style="font-family: 'Rajdhani', serif; color: #000;font-size: 2rem">Nos technos</h1>
 
                         <div class="separator_left"></div>
 
@@ -599,35 +603,35 @@
 
                 <div class="col-md-2"></div>
                 <div class="col-md-4">
-                    <span class="label label-danger" style="font-family: 'Rajdhani';">Java8</span>
-                    <span class="label label-info"style="font-family: 'Rajdhani';">Scala</span>
-                    <span class="label label-default" style="font-family: 'Rajdhani';">Play</span>
-                    <span class="label label-warning"style="font-family: 'Rajdhani';">Spark</span>
-                    <span class="label label-danger"style="font-family: 'Rajdhani';">Hadoop</span>
+                    <span class="label label-primary" style="font-family: 'Rajdhani';">Java8</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Scala</span>
+                    <span class="label label-primary" style="font-family: 'Rajdhani';">Play</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Spark</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Hadoop</span>
                     <span class="label label-primary"style="font-family: 'Rajdhani';">Webpack</span>
-                    <span class="label label-info"style="font-family: 'Rajdhani';">Redux</span>
-                    <span class="label label-success"style="font-family: 'Rajdhani';">Vagrant</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Redux</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Vagrant</span>
                     <span class="label label-primary"style="font-family: 'Rajdhani';">cloud</span>
-                    <span class="label label-danger"style="font-family: 'Rajdhani';">Ruby</span>
-                    <span class="label label-default"style="font-family: 'Rajdhani';">GIT</span>
-                    <span class="label label-default"style="font-family: 'Rajdhani';">Kibana</span>
-                    <span class="label label-danger"style="font-family: 'Rajdhani';">Docker</span>
-                    <span class="label label-danger"style="font-family: 'Rajdhani';">Go</span>
-                    <span class="label label-danger"style="font-family: 'Rajdhani';">Rust</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Ruby</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">GIT</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Kibana</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Docker</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Go</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Rust</span>
                 </div>
                 <div class="col-md-4">
-                    <span class="label label-default"style="font-family: 'Rajdhani';">kubernetes</span>
-                    <span class="label label-success"style="font-family: 'Rajdhani';">Kafka</span>
-                    <span class="label label-info"style="font-family: 'Rajdhani';">Ansible</span>
-                    <span class="label label-success"style="font-family: 'Rajdhani';">Prometheus</span>
-                    <span class="label label-default"style="font-family: 'Rajdhani';">AngularJS</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">kubernetes</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Kafka</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Ansible</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Prometheus</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">AngularJS</span>
                     <span class="label label-primary"style="font-family: 'Rajdhani';">ReactJS</span>
-                    <span class="label label-success"style="font-family: 'Rajdhani';">VueJS</span>
-                    <span class="label label-info"style="font-family: 'Rajdhani';">NodeJS</span>
-                    <span class="label label-info"style="font-family: 'Rajdhani';">Haskell</span>
-                    <span class="label label-warning"style="font-family: 'Rajdhani';">TypeScript</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">VueJS</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">NodeJS</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Haskell</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">TypeScript</span>
                     <span class="label label-primary"style="font-family: 'Rajdhani';">Logstash</span>
-                    <span class="label label-default"style="font-family: 'Rajdhani';">Kotlin</span>
+                    <span class="label label-primary"style="font-family: 'Rajdhani';">Kotlin</span>
                 </div>
 
 
@@ -643,7 +647,7 @@
 
 <div id="contact" >
     <div class="head_title text-center" style="padding-bottom: 2.143rem">
-        <h1 style="font-family: 'Cabin Sketch'; color: #000;font-size: 3rem">Contact </h1>
+        <h1 style="font-family: 'Rajdhani', serif; color: #000;font-size: 3rem">Contact </h1>
         <div class="separator_auto"></div>
     </div>
 </div>
@@ -660,7 +664,7 @@
                     <div class="rage_widget">
                         <div class="widget_head">
 
-                            <h3 class="text-black-3" style="font-family: 'Cabin Sketch'; ">Seligha IT</h3>
+                            <h3 class="text-black-3" >Seligha IT</h3>
                             <div class="separator_small"></div>
                         </div>
                         <h4 style="font-family: 'Rajdhani'"><b>Envie de faire partie de notre aventure ? </b></h4>
@@ -672,7 +676,7 @@
                         <div class="widget_socail m-top-30">
                             <ul class="list-inline">
                                 <li><a ><i class="fa fa-twitter"></i></a></li>
-                                <li><a ><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/selighait" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 
                             </ul>
                         </div>
@@ -728,7 +732,7 @@
     function myMap() {
         var mapCanvas = document.getElementById("map");
         var myCenter = new google.maps.LatLng(48.910908, 2.288803);
-        var mapOptions = {center: myCenter, zoom: 16, styles:[{stylers:[{color:"#282828"}]},{featureType:"road",stylers:[{color:"#494949"}]},{featureType:"poi",stylers:[{color:"#3f3f3f"}]},{featureType:"water",stylers:[{color:"#1c1c1c"}]},{featureType:"transit",stylers:[{visibility:"off"}]},{featureType:"road",stylers:[{visibility:"on"},{color:"#494949"}]},{featureType:"poi.attraction",elementType:"labels.text.fill",stylers:[{visibility:"off"}]},{featureType:"poi.government",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"poi.business",stylers:[{visibility:"off"}]},{featureType:"poi.school",stylers:[{visibility:"off"}]},{featureType:"poi.attraction",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",stylers:[{visibility:"off"}]},{featureType:"poi"},{elementType:"labels.text",stylers:[{color:"#ffffff"}]},{elementType:"labels.text.stroke",stylers:[{visibility:"off"}]},{featureType:"road.highway.controlled_access",stylers:[{visibility:"off"}]}]
+        var mapOptions = {center: myCenter, zoom: 16, styles:[]
         };
         var map = new google.maps.Map(mapCanvas,mapOptions);
         var marker = new google.maps.Marker({
