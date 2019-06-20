@@ -134,8 +134,8 @@ section { overflow: hidden; }*/
 .text-mega{color:#2f57f4 !important;;}
 .text-white{color:#fff !important;text-decoration: underline;font-family: 'Cabin Sketch', cursive;}
 .text-white-1{color:#fff !important ;}
-.text-white-2{color:#fff !important;font-size: 45px }
-.text-white-3{color:#fff !important;font-size: 29px }
+.text-white-2{color:#fff !important;font-size: 43px }
+.text-white-3{color:#fff !important;font-size: 28px }
 .text-black{color:#000 !important;}
 .text-black-1{color:#000 !important;font-size:14px; font-family: 'Rajdhani', serif;  }
 .text-black-3{color:#000 !important;font-size:38px;   }
@@ -1050,7 +1050,7 @@ Home Section style
     background: url(../images/background/image.jpeg) no-repeat bottom center;
     background-size: cover;
     position: relative;
-    height: 600px;
+    height: 950px;
 }
 @media screen and (max-width: 640px) {
     .home{
@@ -1062,7 +1062,7 @@ Home Section style
 }
 .main_home{
     overflow: hidden;
-    padding-top: 200px;
+    padding-top: 250px;
     padding-bottom: 230px;
     position: relative;
     z-index: 1;
