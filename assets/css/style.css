@@ -137,9 +137,9 @@ section { overflow: hidden; }*/
 .text-white-2{color:#fff !important;font-size: 43px }
 .text-white-3{color:#fff !important;font-size: 28px }
 .text-black{color:#000 !important;}
-.text-black-1{color:#000 !important;font-size:14px; font-family: 'Rajdhani', serif;  }
+.text-black-1{color:#000 !important;font-size:18px; font-family: 'Rajdhani', serif;  }
 .text-black-3{color:#000 !important;font-size:38px;   }
-.text-black-2{color:#000 !important;font-size:14px;   font-family: 'Rajdhani', serif;  }
+.text-black-2{color:#000 !important;font-size:18px;   font-family: 'Rajdhani', serif;  }
 
 .text-warning{}
 .text-danger{}
