@@ -1584,7 +1584,7 @@ Testimonial Section style
 .testimonial1{
     background: linear-gradient(to top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%), url(../images/background/testimonial1.jpg) no-repeat center center;
     position: relative;
-    height: 900px;
+    height: 500px;
 }
 @media screen and (max-width: 640px) {
     .testimonial1{
@@ -1637,7 +1637,7 @@ Testimonial Section style
 .testimonial2{
     background: linear-gradient(to top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%), url(../images/background/testimonial2.jpg) no-repeat center center;
     position: relative;
-    height: 900px;
+    height: 500px;
 }
 
 @media screen and (max-width: 640px) {
