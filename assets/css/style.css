@@ -1047,14 +1047,14 @@ Nav Menu style
 Home Section style
 ==================*/
 .home{
-    background: url(../images/background/image.jpeg) no-repeat bottom center;
+    background: url(../images/background/image1.jpg) no-repeat bottom center;
     background-size: cover;
     position: relative;
-    height: 800px;
+    height: 900px;
 }
 @media screen and (max-width: 640px) {
     .home{
-        background: url(../images/background/image.jpeg) no-repeat bottom center;
+        background: url(../images/background/image1.jpg) no-repeat bottom center;
         background-size: cover;
         position: relative;
         height: 750px;
